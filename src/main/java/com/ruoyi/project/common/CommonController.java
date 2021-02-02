@@ -31,10 +31,6 @@ public class CommonController
     @Autowired
     private ServerConfig serverConfig;
 
-    @GetMapping("test")
-    public String test(){
-		return "springboot test2！";
-    }
     /**
      * 通用下载请求
      * 
