@@ -16,8 +16,6 @@ import com.ruoyi.framework.config.RuoYiConfig;
 import com.ruoyi.framework.config.ServerConfig;
 import com.ruoyi.framework.web.domain.AjaxResult;
 
-import junit.framework.Test;
-
 /**
  * 通用请求处理
  * 
@@ -31,6 +29,10 @@ public class CommonController
     @Autowired
     private ServerConfig serverConfig;
 
+    @GetMapping("test")
+    public String test(){
+		return "springboot test2！";
+    }
     /**
      * 通用下载请求
      * 
