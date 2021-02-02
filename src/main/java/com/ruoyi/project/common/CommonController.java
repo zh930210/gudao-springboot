@@ -31,7 +31,7 @@ public class CommonController
 
     @GetMapping("test")
     public String test(){
-		return "springboot test2！";
+		return "springboot test！";
     }
     /**
      * 通用下载请求
